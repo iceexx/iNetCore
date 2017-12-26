@@ -1,2 +1,2 @@
 # iNetCore
-.Net Core 学习记录
+.Net Core 2.1.2
