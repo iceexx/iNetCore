@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iNetCoreConsole", "iNetCoreConsole\iNetCoreConsole.csproj", "{D7B6911E-5571-47E9-A5C2-643DD74BC820}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iNetCoreConsole", "iNetCoreConsole\iNetCoreConsole.csproj", "{D7B6911E-5571-47E9-A5C2-643DD74BC820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iNetCore.Web", "iNetCore.Web\iNetCore.Web.csproj", "{71DF0387-DA8D-4176-9A37-AB159C22FF98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iNetCore.WebMVC", "iNetCore.WebMVC\iNetCore.WebMVC.csproj", "{F37F7C50-39EF-42C4-AECB-F81AEF6D8A73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iNetCore.TodoAPI", "iNetCore.TodoAPI\iNetCore.TodoAPI.csproj", "{EC3361BB-0BD4-402E-A943-53120C5359E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iNetCore.RazorPagesMovie", "iNetCore.RazorPagesMovie\iNetCore.RazorPagesMovie.csproj", "{91600B29-2A91-4A48-9215-0C61F064F12D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{D7B6911E-5571-47E9-A5C2-643DD74BC820}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7B6911E-5571-47E9-A5C2-643DD74BC820}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7B6911E-5571-47E9-A5C2-643DD74BC820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71DF0387-DA8D-4176-9A37-AB159C22FF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71DF0387-DA8D-4176-9A37-AB159C22FF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71DF0387-DA8D-4176-9A37-AB159C22FF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71DF0387-DA8D-4176-9A37-AB159C22FF98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F37F7C50-39EF-42C4-AECB-F81AEF6D8A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37F7C50-39EF-42C4-AECB-F81AEF6D8A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37F7C50-39EF-42C4-AECB-F81AEF6D8A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37F7C50-39EF-42C4-AECB-F81AEF6D8A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3361BB-0BD4-402E-A943-53120C5359E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3361BB-0BD4-402E-A943-53120C5359E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3361BB-0BD4-402E-A943-53120C5359E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3361BB-0BD4-402E-A943-53120C5359E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91600B29-2A91-4A48-9215-0C61F064F12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91600B29-2A91-4A48-9215-0C61F064F12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91600B29-2A91-4A48-9215-0C61F064F12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91600B29-2A91-4A48-9215-0C61F064F12D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
