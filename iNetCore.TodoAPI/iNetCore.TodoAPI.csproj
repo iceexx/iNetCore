@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+    <PackageReference Include="SharpZipLib" Version="0.86.0" />
   </ItemGroup>
 
   <ItemGroup>
