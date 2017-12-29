@@ -8,6 +8,7 @@ namespace iNetCoreConsole
     {
         static void Main(string[] args)
         {
+            // http://www.81.cn/2017zt/99627.htm
             int code = 0;
             while (true)
             {
